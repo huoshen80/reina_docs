@@ -1,0 +1,15 @@
+[
+  {
+    "text": "开始",
+    "link": "/guild/start/quick-start",
+    "activeMatch": "^/guild/start/"
+  },
+  {
+    "text": "博客",
+    "link": "https://huoshen80.top/"
+  },
+  {
+    "text": "加入我们",
+    "link": "/guild/join-us"
+  }
+]
