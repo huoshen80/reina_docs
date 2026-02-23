@@ -27,11 +27,11 @@
     {
         "type": "file",
         "name": "le-magpie",
-        "label": "转区与自动放大"
+        "label": "一键转区与自动放大"
     },
     {
         "type": "file",
-        "name": "gamedata",
+        "name": "savedata",
         "label": "游戏存档备份"
     }
 ]

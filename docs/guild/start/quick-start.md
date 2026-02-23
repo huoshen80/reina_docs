@@ -10,12 +10,16 @@
    - Linux: `.AppImage` 或 `.deb` 文件（由[@wind-mask](https://github.com/wind-mask)维护）
 
    *PS：x64 和 Arm64 的安装包都有，Linux 版本请访问 [Reina Linux](https://github.com/wind-mask/ReinaManager/releases) 按需下载。*
-3. ⚠️安装提醒
+
+::: warning 安装提醒
+
    - 不建议安装在 `C:\Program Files` 目录下。该目录需要以管理员权限运行软件才能正常使用以下功能：
      - 自定义游戏封面
      - 便携模式
 
-4. 安装完成后，启动 ReinaManager，你将看到一个简洁的主页，你可以点击游戏仓库然后开始管理你的游戏库！
+:::
+
+3. 安装完成后，启动 ReinaManager，你将看到一个简洁的主页，你可以点击游戏仓库然后开始管理你的游戏库！
 
 ## 添加 Bangumi Token（可选）
 
@@ -36,7 +40,11 @@
 3. 随便填写一个名称然后把有效期改为 365 天，点击 `Submit` 按钮，上方会出现一串字符，将它复制下来
 4. 回到 ReinaManager 设置页面，将复制的字符粘贴到 BGM 令牌输入框中，点击保存
 
-*⚠️注意：你的 Bangumi 账号需要注册满 `60天` 才有访问所有条目的权限，你可以在 Bangumi 个人中心查看账号注册日期*
+::: warning
+
+你的 Bangumi 账号需要注册满 `60天` 才有访问所有条目的权限，你可以在 Bangumi 个人中心查看账号注册日期
+
+:::
 
 ## 添加游戏
 
