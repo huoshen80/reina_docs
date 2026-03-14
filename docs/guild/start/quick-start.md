@@ -7,9 +7,9 @@
 1. 访问 [GitHub Releases](https://github.com/huoshen80/ReinaManager/releases) 页面
 2. 下载适合你操作系统的最新版本：
    - Windows: `.msi` 或 `.setup.exe` 安装包
-   - Linux: `.AppImage` 或 `.deb` 文件（由[@wind-mask](https://github.com/wind-mask)维护）
+   - Linux: `.AppImage`、`.deb` 或者 `.rpm` 文件（由[@wind-mask](https://github.com/wind-mask)维护）
 
-   *PS：x64 和 Arm64 的安装包都有，Linux 版本请访问 [Reina Linux](https://github.com/wind-mask/ReinaManager/releases) 按需下载。*
+   *PS：x64 和 Arm64 的安装包都有*
 
 ::: warning 安装提醒
 
@@ -52,7 +52,7 @@
 - 从游戏仓库中点击右上角添加游戏按钮
 - 任意页面将游戏的文件夹或者可执行文件拖拽到 ReinaManager 窗口中
 
-推荐使用 Mixed 数据源，在确认游戏名称无误后点击确认按钮即可完成添加，如有多个搜索结果后续会有二步确认
+推荐使用 Mixed 数据源，在确认游戏名称无误后点击确认按钮开始搜索，然后选择正确的游戏条目完成添加
 
 ## 管理游戏
 
@@ -62,8 +62,8 @@
 
 ## 启动游戏
 
-- 你可以鼠标右键，点击启动游戏按钮，也可以在游戏详情页右上角点击启动游戏按钮
-- 你还可以前往设置页面中`卡片点击模式-双击启动游戏`启用双击鼠标左键启动游戏的功能
+- 你可以鼠标右键，点击启动游戏按钮，也可以点击游戏详情页右上角的启动游戏按钮
+- 你还可以对着游戏卡片双击鼠标左键启动游戏
 
 ## 其他功能
 
