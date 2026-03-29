@@ -6,20 +6,12 @@
 
 1. 访问 [GitHub Releases](https://github.com/huoshen80/ReinaManager/releases) 页面
 2. 下载适合你操作系统的最新版本：
-   - Windows: `.msi` 或 `.setup.exe` 安装包
+   - Windows: `.msi`、`.setup.exe` 或 `.zip` 便携包
    - Linux: `.AppImage`、`.deb` 或者 `.rpm` 文件（由[@wind-mask](https://github.com/wind-mask)维护）
 
    *PS：x64 和 Arm64 的安装包都有*
 
-::: warning 安装提醒
-
-   - 不建议安装在 `C:\Program Files` 目录下。该目录需要以管理员权限运行软件才能正常使用以下功能：
-     - 自定义游戏封面
-     - 便携模式
-
-:::
-
-3. 安装完成后，启动 ReinaManager，你将看到一个简洁的主页，你可以点击游戏仓库然后开始管理你的游戏库！
+3. 安装或解压完成后，启动 ReinaManager，你将看到一个简洁的主页，你可以点击游戏仓库然后开始管理你的游戏库！
 
 ## 添加 Bangumi Token（可选）
 
