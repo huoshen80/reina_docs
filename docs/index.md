@@ -3,8 +3,8 @@ pageType: home
 
 hero:
   name: ReinaManager
-  text: 一个轻量级的galgame/视觉小说管理工具
-  tagline: 易上手、多数据源聚合
+  text: 一款轻量级的 galgame/视觉小说管理工具
+  tagline: 易上手、高性能、多数据源聚合
   actions:
     - theme: brand
       text: 下载
@@ -17,7 +17,7 @@ hero:
     alt: ReinaManager Logo
 features:
   - title: 多源数据整合
-    details: 无缝获取并合并来自 VNDB、Bangumi 和 YmGal API 的游戏元数据
+    details: 无缝获取并合并来自 VNDB、Bangumi、YmGal、KunGal API 的游戏元数据
     icon: 🌐
   - title: 强大的搜索
     details: 通过游戏标题、别名、自定义名称及其他元数据智能搜索游戏
