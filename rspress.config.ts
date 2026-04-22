@@ -8,7 +8,7 @@ export default defineConfig({
   title: 'ReinaManager - galgame/视觉小说管理工具',
   description:
     '一款由 Tauri 2.0 驱动的轻量级、易上手、高性能、跨平台 galgame/视觉小说管理工具，为您提供高效便捷的游戏管理体验~',
-  icon: '/reina-icon.png',
+  icon: '/reina-icon.ico',
   logo: '/reina-icon.png',
   logoText: 'ReinaManager',
   themeConfig: {
