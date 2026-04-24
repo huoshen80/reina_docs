@@ -4,7 +4,7 @@
 
 ## 下载安装
 
-1. 访问 [GitHub Releases](https://github.com/huoshen80/ReinaManager/releases) 页面
+1. 访问 [GitHub Releases](https://github.com/huoshen80/ReinaManager/releases) 页面或者二选一 [MSI](https://huoshen80.top/api/reina/lastest/) 和 [MSI CDN](https://huoshen80.top/api/reina/lastest/cdn) 下载安装包
 2. 下载适合你操作系统的最新版本：
    - Windows: `.msi`、`.setup.exe` 或 `.zip` 便携包
    - Linux: `.AppImage`、`.deb` 或者 `.rpm` 文件（由[@wind-mask](https://github.com/wind-mask)维护）
@@ -63,3 +63,29 @@
 - **排序、筛选：** 支持最近游玩、最近添加、评分等多种排序方式，支持本地游戏、网络游戏等多种筛选方式
 - **开发商分类：** 在收藏夹页面开发商内自动根据刮削数据对游戏的开发商进行分类
 - **分组、分类：** 在收藏夹页面先创建分组，在分组内创建任意分类、进入分类或者右键分类然后开始管理你的收藏夹
+
+## 软件的外部文件结构
+
+安装版：
+
+``` shell
+%AppData%\com.reinamanager.dev
+├── backups/            # 游戏存档备份文件夹
+├── covers/             # 游戏封面文件夹
+└── data/               # 数据库文件夹
+    └── backups/        # 数据库备份文件夹
+```
+
+便携版：
+
+``` shell
+resources
+├── backups/            # 游戏存档备份文件夹
+├── covers/             # 游戏封面文件夹
+└── data/               # 数据库文件夹
+    └── backups/        # 数据库备份文件夹  
+```
+
+日志文件：
+
+`%LocalAppData%\com.reinamanager.dev\logs\ReinaManager.log`

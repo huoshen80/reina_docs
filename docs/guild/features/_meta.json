@@ -1,37 +1,42 @@
 [
-    {
-        "type": "file",
-        "name": "index",
-        "label": "功能概览"
-    },
-    {
-        "type": "file",
-        "name": "whitecloud",
-        "label": "从WhiteCloud 导入"
-    },
-    {
-        "type": "file",
-        "name": "addgame",
-        "label": "添加游戏"
-    },
-    {
-        "type": "file",
-        "name": "editgame",
-        "label": "编辑游戏资料"
-    },
-    {
-        "type": "file",
-        "name": "collection",
-        "label": "收藏夹"
-    },
-    {
-        "type": "file",
-        "name": "le-magpie",
-        "label": "一键转区与自动放大"
-    },
-    {
-        "type": "file",
-        "name": "savedata",
-        "label": "游戏存档备份"
-    }
+  {
+    "type": "file",
+    "name": "index",
+    "label": "功能概览"
+  },
+  {
+    "type": "file",
+    "name": "whitecloud",
+    "label": "从WhiteCloud 导入"
+  },
+  {
+    "type": "file",
+    "name": "addgame",
+    "label": "添加游戏"
+  },
+  {
+    "type": "file",
+    "name": "editgame",
+    "label": "编辑游戏资料"
+  },
+  {
+    "type": "file",
+    "name": "collection",
+    "label": "收藏夹"
+  },
+  {
+    "type": "file",
+    "name": "le-magpie",
+    "label": "一键转区与自动放大"
+  },
+  {
+    "type": "file",
+    "name": "savedata",
+    "label": "游戏存档备份"
+  },
+  {
+    "type": "file",
+    "name": "portable",
+    "label": "便携模式"
+  }
 ]
