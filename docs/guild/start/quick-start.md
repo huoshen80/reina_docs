@@ -13,7 +13,7 @@
 
 3. 安装或解压完成后，启动 ReinaManager，你将看到一个简洁的主页，你可以点击游戏仓库然后开始管理你的游戏库！
 
-## 添加 Bangumi Token（可选）
+## 登录 Bangumi
 
 <details>
   <summary>我没有注册过 Bangumi</summary>
@@ -21,16 +21,13 @@
 如果你没有注册过 Bangumi，你需要先注册一个账号：
 1. 访问 [Bangumi 注册页面](https://bgm.tv/signup)（如果这个域名无法注册可以尝试[chii.in](https://chii.in/signup)）
 2. 填写注册信息并完成注册
-3. 注册完成后，按照下方步骤获取 Bangumi Token
+3. 注册完成后，直接使用软件内的 `OAUTH 快捷登录` 按钮
 
 </details>
 
-如果你想从 Bangumi 获取游戏信息，为保证能正常获取所有游戏的条目（包括有 R18 标签的游戏）你需要先获取 Bangumi Token：
-1. 点击设置页面 BGM 令牌项中的`获取令牌`按钮
-![get-token](/images/quick-start_20260220_150309.png)
-2. 如果你没登录 Bangumi 网站，系统会提示你先登录
-3. 随便填写一个名称然后把有效期改为 365 天，点击 `Submit` 按钮，上方会出现一串字符，将它复制下来
-4. 回到 ReinaManager 设置页面，将复制的字符粘贴到 BGM 令牌输入框中，点击保存
+如果你想从 Bangumi 获取游戏信息，或者同步游戏状态，你需要登录 Bangumi 账号
+
+点击设置页面内的 `OAUTH 快捷登录` 按钮，然后在浏览器中授权即可
 
 ::: warning
 
