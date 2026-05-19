@@ -1,5 +1,8 @@
 # 从 WhiteCloud 导入游戏
 
+## 适用于
+- Whitecloud v0.4.0 数据库结构
+
 ## 使用方法
 
 从[reina_migrator](https://github.com/huoshen80/reina_migrator/releases/)下载最新版本的迁移工具，按照以下步骤操作：
