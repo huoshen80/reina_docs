@@ -13,7 +13,8 @@
 
 3. 安装或解压完成后，启动 ReinaManager，你将看到一个简洁的主页，你可以点击游戏仓库然后开始管理你的游戏库！
 
-## 登录 Bangumi
+## 登录 Bangumi（可选，推荐）
+**目前 Bangumi 被墙，无梯子用户可以直接跳过**
 
 <details>
   <summary>我没有注册过 Bangumi</summary>
