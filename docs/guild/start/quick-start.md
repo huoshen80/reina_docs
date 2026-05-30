@@ -4,7 +4,7 @@
 
 ## 下载安装
 
-1. 访问 [GitHub Releases](https://github.com/huoshen80/ReinaManager/releases) 页面或者 [MSI](https://huoshen80.top/api/reina/lastest/) 和 [MSI CDN](https://huoshen80.top/api/reina/lastest/cdn) 二选一下载安装包
+1. 访问 [GitHub Releases](https://github.com/huoshen80/ReinaManager/releases) 页面或者 [MSI](https://huoshen80.top/api/reina/latest/) 和 [MSI CDN](https://huoshen80.top/api/reina/latest/cdn) 二选一下载安装包
 2. 下载适合你操作系统的最新版本：
    - Windows: `.msi`、`.setup.exe` 或 `.zip` 便携包
    - Linux: `.AppImage`、`.deb` 或者 `.rpm` 文件（由[@wind-mask](https://github.com/wind-mask/ReinaManager)维护）
