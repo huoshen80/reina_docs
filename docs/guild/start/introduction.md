@@ -2,7 +2,15 @@
 
 ReinaManager 是一个轻量级、易上手的 galgame/视觉小说管理工具
 
-![library](/images/introduction_20260522_170648.png)
+浅色模式：
+![library](/images/introduction_20260619_213403.png)
+
+<details>
+<summary>深色模式</summary>
+
+  ![library_dark](/images/introduction_20260619_215212.png)
+
+</details>
 
 ## 功能特性
 
