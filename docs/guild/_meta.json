@@ -8,5 +8,10 @@
     "type": "dir-section-header",
     "name": "features",
     "label": "功能特性"
+  },
+  {
+    "type": "dir-section-header",
+    "name": "community",
+    "label": "交流与反馈"
   }
 ]
