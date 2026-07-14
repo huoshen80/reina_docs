@@ -17,7 +17,7 @@ hero:
     alt: ReinaManager Logo
 features:
   - title: 多源数据整合
-    details: 无缝获取并合并来自 VNDB、Bangumi、YmGal、KunGal API 的游戏元数据
+    details: 无缝获取并合并来自 VNDB、Bangumi、YmGal、KunGal 等 API 的游戏元数据
     icon: 🌐
   - title: 筛选搜索
     details: 对游戏进行多维度的筛选搜索，如按来源、状态、标签、别名等

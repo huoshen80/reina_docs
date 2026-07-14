@@ -3,18 +3,18 @@
 ReinaManager 是一个轻量级、易上手的 galgame/视觉小说管理工具
 
 浅色模式：
-![library](/images/introduction_20260619_213403.png)
+![library](/images/introduction_20260715_001459.png)
 
 <details>
 <summary>深色模式</summary>
 
-  ![library_dark](/images/introduction_20260619_215212.png)
+  ![library_dark](/images/introduction_20260715_001606.png)
 
 </details>
 
 ## 功能特性
 
-- 🌐 **多源数据整合** - 无缝获取并合并来自 VNDB、Bangumi、YmGal 和 KunGal API 的游戏元数据
+- 🌐 **多源数据整合** - 无缝获取并合并来自 VNDB、Bangumi、YmGal 和 KunGal 等 API 的游戏元数据
 - 🔍 **强大的搜索** - 通过游戏标题、别名、自定义名称及其他元数据智能搜索游戏
 - 🗂️ **筛选排序** - 对游戏进行多维度的筛选和排序，如按来源、状态、标签等
 - 📚 **收藏管理** - 通过分组和分类组织游戏库，并支持拖拽排序
