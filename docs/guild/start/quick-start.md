@@ -13,35 +13,12 @@
 
 3. 安装或解压完成后，启动 ReinaManager，你将看到一个简洁的主页，你可以点击游戏仓库然后开始管理你的游戏库！
 
-## 登录 Bangumi（可选，推荐）
-**目前 Bangumi 被墙，无梯子用户可以直接跳过**
-
-<details>
-  <summary>我没有注册过 Bangumi</summary>
-
-如果你没有注册过 Bangumi，你需要先注册一个账号：
-1. 访问 [Bangumi 注册页面](https://bgm.tv/signup)（如果这个域名无法注册可以尝试[chii.in](https://chii.in/signup)）
-2. 填写注册信息并完成注册
-3. 注册完成后，直接使用软件内的 `OAUTH 快捷登录` 按钮   
-
-</details>
-
-如果你想从 Bangumi 获取游戏信息、同步游戏状态，你需要登录 Bangumi 账号
-
-点击设置页面内的 `OAUTH 快捷登录` 按钮，然后在浏览器中授权即可
-
-::: warning
-
-你的 Bangumi 账号需要注册满 `60天` 才有访问所有条目的权限，你可以在 Bangumi 个人中心查看账号注册日期
-![Bangumi 账号注册时间](/images/quick-start_20260522_174915.png)
-
-:::
-
 ## 添加游戏
 
 你有两种方式可以添加游戏：
 - 从游戏仓库中点击右上角添加游戏按钮
 - 任意页面将游戏的文件夹或者启动文件拖拽到 ReinaManager 窗口中
+- 从云端收藏导入游戏（Bangumi、VNDB、Hikarinagi 等网站）
 
 推荐使用 Mixed 数据源，在确认游戏名称无误后点击确认按钮开始搜索，然后选择正确的游戏条目完成添加
 
@@ -92,3 +69,28 @@ PS：如果需要搬迁除游戏存档外的完整数据，可以在设置中点
 日志文件：
 
 `%LocalAppData%\com.reinamanager.dev\logs\ReinaManager.log`
+
+## 其它（可选）
+
+### 登录 Bangumi
+**目前 Bangumi 被墙，无梯子用户可以直接跳过**
+
+<details>
+  <summary>我没有注册过 Bangumi</summary>
+
+如果你没有注册过 Bangumi，你需要先注册一个账号：
+1. 访问 [Bangumi 注册页面](https://bgm.tv/signup)
+3. 注册完成后，直接使用软件内的 `OAUTH 快捷登录` 按钮   
+
+</details>
+
+如果你想从 Bangumi 获取游戏信息、同步游戏状态，你需要登录 Bangumi 账号
+
+点击设置页面内的 `OAUTH 快捷登录` 按钮，然后在浏览器中授权即可
+
+::: warning
+
+你的 Bangumi 账号需要注册满 `60天` 才有访问所有条目的权限，你可以在 Bangumi 个人中心查看账号注册日期
+![Bangumi 账号注册时间](/images/quick-start_20260522_174915.png)
+
+:::

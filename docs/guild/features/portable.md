@@ -22,7 +22,7 @@ PS：因为历史遗留问题，`resources` 文件夹目前被视为用户数据
 
 如果想要切换到便携模式，可以按照以下步骤操作：
 
-移动 `%AppData%\com.reinamanager.dev` 文件夹下除 `.window-state.json` 之外的文件到 `resources` 文件夹下，`resources` 一般需要手动创建。
+移动 `%AppData%\com.reinamanager.dev` 文件夹下 `covers` 和 `data` 文件夹（不动其它文件）到 `resources` 文件夹下，`resources` 一般需要手动创建。
 
 ## 关于便携版的更新
 
