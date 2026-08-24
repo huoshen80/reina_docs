@@ -36,6 +36,11 @@
   },
   {
     "type": "file",
+    "name": "statistics",
+    "label": "游玩记录与统计"
+  },
+  {
+    "type": "file",
     "name": "portable",
     "label": "便携模式"
   }
