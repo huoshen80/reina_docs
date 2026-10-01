@@ -2,7 +2,7 @@
 
 ## 游戏管理
 
-- **多种添加游戏方法：** 支持[拖拽添加](addgame.md)、[从其它管理器迁移](whitecloud.md)（WhiteCloud、Playnite）
+- **多种添加游戏方法：** 支持[拖拽添加](addgame.md)、[从其它管理器迁移](migration.md)（WhiteCloud、Playnite）
 - **自定义元数据：** 允许用户自定义游戏封面、名称、Tag、开发商等
 - **游戏状态管理：** 支持标记游戏为想玩、在玩、玩过、搁置、弃坑
 
