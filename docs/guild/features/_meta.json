@@ -36,6 +36,11 @@
   },
   {
     "type": "file",
+    "name": "backup",
+    "label": "数据备份与恢复"
+  },
+  {
+    "type": "file",
     "name": "statistics",
     "label": "游玩记录与统计"
   },
