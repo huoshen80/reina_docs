@@ -58,7 +58,7 @@
 | Played、Beaten、Completed | 玩过 |
 | Playing | 在玩 |
 | On Hold | 搁置 |
-| Abandoned | 抛弃 |
+| Abandoned | 弃坑 |
 | 其他自定义状态 | 想玩 |
 
 ### 迁移限制

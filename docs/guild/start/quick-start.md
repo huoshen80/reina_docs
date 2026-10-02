@@ -7,7 +7,7 @@
 1. 访问 [GitHub Releases](https://github.com/huoshen80/ReinaManager/releases) 页面或者 [MSI](https://huoshen80.top/api/reina/latest/) 和 [MSI CDN](https://huoshen80.top/api/reina/latest/cdn) 二选一下载安装包
 2. 下载适合你操作系统的最新版本：
    - Windows: `.msi`、`.setup.exe` 或 `.zip` 便携包
-   - Linux: `.AppImage`、`.deb` 或者 `.rpm` 文件（由[@wind-mask](https://github.com/wind-mask/ReinaManager)维护）
+   - Linux: `.AppImage`、`.deb` 或 `.rpm` 文件（由[@wind-mask](https://github.com/wind-mask/ReinaManager)维护）
 
    *PS：x64 和 Arm64 的安装包都有*
 
@@ -42,6 +42,10 @@
 - **开发商分类：** 在收藏夹页面开发商内自动根据刮削数据对游戏的开发商进行分类
 - **分组、分类：** 在收藏夹页面先创建分组，分组内创建分类，进入分类或者右键分类开始管理你的收藏夹
 - **批量操作：** 在游戏仓库页面使用批量选择功能对游戏进行批量删除和批量添加至收藏夹等操作
+
+点击工具栏的`筛选排序`，可以组合游戏来源、游玩状态和 Tag 条件，再选择排序方式，点击`应用`。
+
+![筛选排序：游戏来源、游玩状态、Tag 和排序方式](/images/library-filter_20261001.png)
 
 ## 软件的外部文件结构
 
@@ -78,16 +82,16 @@ resources
 ### 登录 Bangumi
 **目前 Bangumi 被墙，无梯子用户可以直接跳过**
 
+如果你想从 Bangumi 获取游戏信息、同步游戏状态，你需要登录 Bangumi 账号
+
 <details>
   <summary>我没有注册过 Bangumi</summary>
 
 如果你没有注册过 Bangumi，你需要先注册一个账号：
 1. 访问 [Bangumi 注册页面](https://bgm.tv/signup)
-3. 注册完成后，直接使用软件内的 `OAUTH 快捷登录` 按钮   
+2. 注册完成后，使用软件内的`OAuth 快捷登录`按钮。
 
 </details>
-
-如果你想从 Bangumi 获取游戏信息、同步游戏状态，你需要登录 Bangumi 账号
 
 点击设置页面内的 `OAUTH 快捷登录` 按钮，然后在浏览器中授权即可
 
