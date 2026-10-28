@@ -15,6 +15,35 @@ const response = await fetch(
 );
 
 if (!response.ok) {
+  const diagnosticHeaders = {};
+  for (const name of [
+    'x-ratelimit-limit',
+    'x-ratelimit-remaining',
+    'x-ratelimit-used',
+    'x-ratelimit-reset',
+    'x-ratelimit-resource',
+    'retry-after',
+    'x-github-request-id',
+  ]) {
+    const value = response.headers.get(name);
+    if (value !== null) diagnosticHeaders[name] = value;
+  }
+  const body = await response.text();
+  // 只记录是否配置认证，避免将令牌写入构建日志；限制正文长度以免日志过大。
+  console.error(
+    'GitHub Release API 请求失败：',
+    JSON.stringify(
+      {
+        status: response.status,
+        authenticated: Boolean(process.env.GITHUB_TOKEN),
+        headers: diagnosticHeaders,
+        body: body.slice(0, 4096),
+        bodyTruncated: body.length > 4096,
+      },
+      null,
+      2,
+    ),
+  );
   throw new Error(`获取最新 Release 失败：HTTP ${response.status}`);
 }
 
