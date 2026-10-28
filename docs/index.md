@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 下载
-      link: https://github.com/huoshen80/ReinaManager/releases
+      link: /download
     - theme: alt
       text: 快速开始
       link: /guild/start/quick-start

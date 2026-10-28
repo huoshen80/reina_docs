@@ -4,14 +4,9 @@
 
 ## 下载安装
 
-1. 访问 [GitHub Releases](https://github.com/huoshen80/ReinaManager/releases) 页面或者 [MSI](https://huoshen80.top/api/reina/latest/) 和 [MSI CDN](https://huoshen80.top/api/reina/latest/cdn) 二选一下载安装包
-2. 下载适合你操作系统的最新版本：
-   - Windows: `.msi`、`.setup.exe` 或 `.zip` 便携包
-   - Linux: `.AppImage`、`.deb` 或 `.rpm` 文件（由[@wind-mask](https://github.com/wind-mask/ReinaManager)维护）
-
-   *PS：x64 和 Arm64 的安装包都有*
-
-3. 安装或解压完成后，启动 ReinaManager，你将看到一个简洁的主页，你可以点击游戏仓库然后开始管理你的游戏库！
+1. 前往[下载页面](/download)，选择适合你的版本。大多数 Windows 用户可以选择推荐的 x64 安装版。
+2. 下载完成后，双击安装包并按照提示安装；如果选择便携版，则先解压文件。
+3. 启动 ReinaManager，点击游戏仓库，开始管理你的游戏库！
 
 ## 添加游戏
 

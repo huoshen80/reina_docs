@@ -1,0 +1,17 @@
+[
+  {
+    "type": "dir-section-header",
+    "name": "guild/start",
+    "label": "快速开始"
+  },
+  {
+    "type": "dir-section-header",
+    "name": "guild/features",
+    "label": "功能特性"
+  },
+  {
+    "type": "dir-section-header",
+    "name": "guild/community",
+    "label": "交流与反馈"
+  }
+]

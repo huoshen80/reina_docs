@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "rspress build",
+    "build": "node scripts/prepare-downloads.mjs && rspress build",
     "check": "biome check --write",
-    "dev": "rspress dev",
+    "dev": "node scripts/prepare-downloads.mjs && rspress dev",
     "format": "biome format --write",
     "preview": "rspress preview"
   },
