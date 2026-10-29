@@ -89,6 +89,7 @@
 
 .reina-download-segments {
   display: flex;
+  flex-wrap: wrap;
   gap: 2px;
   padding: 4px;
   border: 1px solid var(--rp-c-divider-light);
@@ -98,7 +99,7 @@
 
 .reina-download-segments button {
   flex: 1;
-  min-width: 0;
+  min-width: max-content;
   padding: 7px 8px;
   border: 0;
   border-radius: 6px;
@@ -201,12 +202,16 @@
   }
 
   .reina-download-options {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr));
     gap: 16px 12px;
   }
 
   .reina-download-options fieldset:last-child {
     grid-column: 1 / -1;
+  }
+
+  .reina-download-segments button {
+    min-height: 44px;
   }
 
   .reina-download-actions a {
