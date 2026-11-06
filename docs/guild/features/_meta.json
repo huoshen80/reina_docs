@@ -21,6 +21,11 @@
   },
   {
     "type": "file",
+    "name": "data-sources",
+    "label": "数据源与元数据展示"
+  },
+  {
+    "type": "file",
     "name": "collection",
     "label": "收藏夹"
   },
